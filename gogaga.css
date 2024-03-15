@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-yelow {
+    background-color: #b58863;
+}
+
+.special {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .first-page {
+        background-image: url("https://img.freepik.com/free-vector/realistic-travel-elements-background_23-2148049637.jpg?t=st=1710479748~exp=1710483348~hmac=d98d62832457b2125b9bfc6a184e794a544232dfbc13b549317c9d850d15a912&w=740");
+        background-size: cover;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .card-1 {
+        background-color: #99e0b9;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+        color: white;
+        border-radius: 6px;
+        flex-grow: 1;
+    }
+
+    .headu-2 {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .card-2 {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .icons {
+        background-color: #93f5bf;
+        border-radius: 50px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+
+    .pala-2 {
+        font-family: Roboto;
+        font-size: 10px;
+    }
+
+    .bomma-2 {
+        height: 100px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .headu {
+        color: darkblue;
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 600;
+    }
+
+    .pala {
+        color: black;
+        font-weight: bold;
+    }
+
+    .explore {
+        background-color: #ebe0ab;
+        padding: 10px;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 2px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: Roboto;
+        color: black;
+        font-weight: bold;
+    }
+
+    .arrow {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .bomma {
+        height: 40px;
+        width: 80px;
+    }
+}
+
+@media(min-width:768px) {
+    .first-page {
+        background-image: url("https://img.freepik.com/free-photo/small-traveller-figure-world-tourism-day_1150-17447.jpg?t=st=1710481455~exp=1710485055~hmac=4fd464c76c9c4a74558f251644420e02e3a73a2c5fbfacec39aaa2d431b80ffa&w=900");
+        background-size: cover;
+        height: 100vh;
+
+        align-items: center;
+
+    }
+
+    .bomma {
+        height: 50px;
+        width: 100px;
+    }
+
+    .headu-2 {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .card-2 {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .icons {
+        background-color: #93f5bf;
+        border-radius: 50px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+
+    .pala-2 {
+        font-family: Roboto;
+        font-size: 10px;
+    }
+
+    .bomma-2 {
+        height: 100px;
+        width: 130px;
+        border-radius: 6px;
+    }
+
+    .headu {
+        color: #45484d;
+        text-align: center;
+        font-family: Roboto;
+        font-weight: 600;
+    }
+
+    .pala {
+        color: black;
+        font-weight: bold;
+    }
+
+    .explore {
+        background-color: #ebe0ab;
+        padding: 10px;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 2px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: Roboto;
+        color: black;
+        font-weight: bold;
+    }
+
+    .card-1 {
+        background-color: #99e0b9;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+        color: white;
+        border-radius: 6px;
+        flex-grow: 1;
+    }
+
+    .arrow {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}

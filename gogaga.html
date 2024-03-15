@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/363dc755f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionFirstPage">
+        <div class="first-page d-flex flex-column justify-content-center">
+            <h1 class="headu">Embark on an Adventure<br />Explore Our World</h1>
+            <p class="pala">Gogaga Holidays<i class="fa-solid fa-mountain-sun arrow"></i></p>
+            <button class="explore" onclick="display('sectionSecondPage')">Explore<i class="fa-solid fa-arrow-right arrow"></i></button>
+        </div>
+    </div>
+    <div id="sectionSecondPage">
+        <div class="second-page">
+            <nav class="navbar navbar-expand-lg navbar-light bg-yelow">
+                <a class="navbar-brand" href="#"><img src="https://static.wixstatic.com/media/2d34e5_1e4b2c2047144b8484c6e78ad38dcb9d~mv2.jpg/v1/fill/w_242,h_99,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GOGAGA%20NEW%20LOGO%20FINAL-01.jpg" class="bomma" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-ellipsis-vertical" id="threeDots"></i>
+                    <i class="fa-solid fa-xmark special" id="cross"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav  d-flex justify-content-end m-3">
+                        <a class="nav-link active" href="#" onclick="display('sectionFirstPage')">
+                            Home<i class="fa-solid fa-house arrow"></i>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link active" href="#" onclick="display('sectionWhychooseus')">why Choose us<i class="fa-solid fa-question arrow"></i></a>
+                        <a class="nav-link active" href="#">contact us .<i class="fa-solid fa-phone"></i></a>
+                        <a class="nav-link active" href="#">why me .<i class="fa-solid fa-person"></i></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="card-1">
+                <div>
+                    <h1 class="headu-2">Plan your Trip</h1>
+                    <h4 class="pala-2">choose your Destination</h4>
+                    <a href="#">dive in .<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <img src="https://img.freepik.com/free-photo/rest-sunshine-atoll-bungalow-holiday_1232-3876.jpg?w=900&t=st=1710486457~exp=1710487057~hmac=3fbee4bbdb15bb1bbf504f2963c773e34d963f3194329a6bb034e09ec6444888" class="bomma-2" />
+            </div>
+            <div class="card-1">
+                <div>
+                    <h1 class="headu-2">Travel Options</h1>
+                    <h4 class="pala-2">Book your tickets</h4>
+                    <a href="#">book .<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <img src="https://img.freepik.com/free-photo/joyful-pretty-caucasian-woman-blinks-eye-gestures-victory-hand-sign-holding-air-tickets-orange_141793-69293.jpg?t=st=1710487060~exp=1710490660~hmac=4216fc7de3ba227e205164cbf865439afee9a14a3fbf64655e4ac8850e3b3867&w=900" class="bomma-2" />
+            </div>
+            <div class="card-1">
+                <div>
+                    <h1 class="headu-2">Hotel Stay</h1>
+                    <h4 class="pala-2">considering the top rated hotels</h4>
+                    <a href="#">stay .<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <img src="https://img.freepik.com/free-vector/flat-hotel-review-background_23-2148157030.jpg?t=st=1710487210~exp=1710490810~hmac=1d8e94b91f67c0de802e5a0a77f2c64494c9f2b75014ee3bdae0669a8342d03a&w=740" class="bomma-2" />
+            </div>
+            <div class="card-1">
+                <div>
+                    <h1 class="headu-2">offers & discounts</h1>
+                    <h4 class="pala-2">check out our new offers and discounts</h4>
+                    <a href="#">$$<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <img src="https://as2.ftcdn.net/v2/jpg/06/76/90/51/1000_F_676905160_z65D1wKaxbVEArYu5cIhzDGbT2OYassz.jpg" class="bomma-2" />
+            </div>
+            <div class="card-2">
+                <div class="icons" href="https://www.instagram.com/gogagaholidays?igsh=bXVqNnp6YjVkMm5m">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/gogagaholidays?igsh=bXVqNnp6YjVkMm5m"></a>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWhychooseus">
+        <h3 class="headu">
+            Why Choose?
+            Diverse Experiences: From historic landmarks to outdoor adventures, has something for everyone.
+            Cultural Richness: Immerse yourself in the vibrant traditions and customs of communities.
+            Natural Beauty: Explore pristine beaches, lush rainforests, and awe-inspiring mountainscapes.
+            Adventure Awaits: Embark on thrilling experiences, from hiking and diving to wildlife safaris.
+
+        </h3>
+        <button class="btn btn-primary" onclick="display('sectionSecondPage')">back</button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
